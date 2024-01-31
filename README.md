@@ -1,2 +1,7 @@
 # Sail-The-High-Seas-MegaThrd
-<p align="center">This is an unofficial web page Version of the megathread Piracy Sail The High Seas</p>
+<p align="center">Welcome, This is an unofficial web page Version of the megathread Piracy Sail The High Seas. The main purpose of this repository 
+is to give people a local interactive option to navigate "Sail the High Seaas" Megathread and provide a backup in case anything happens.</p><br>
+<p><b>For new users that have no idea what is this about, is basically a huge compilation and information about sites and interesting 
+places where you can find software, books, tools, adult content and much more things that are interesting. Beaware, I'm not responsible for 
+any of the links you decide to search, however there are active users which actively check if a site is safe or not.</b></p>
+<p>This information Should be used for informational purposes only, not responsible in you decide to use it for something else.</p>
