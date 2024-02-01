@@ -6,6 +6,15 @@ html{ /*
     background: linear-gradient(90deg, rgb(34, 34, 85) , rgb(54, 54, 159), rgb(31, 31, 77));
     */
 }
+/*Fonts*/
+@font-face {
+    font-family: testing;
+    src: url("../fonts/AGENCYB.TTF");
+}
+/*Fonts*/
+header{
+    display: inline-block;
+}
 body {
     margin: 0 auto;
     width:100%;
@@ -13,60 +22,38 @@ body {
     
 }
 /*Navigation Menu*/
-
-#nav_menu ul{
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    position: relative;
-    
-    
-    
-}
-#nav_menu ul li{
-    Float:left;
-    width: 20%;
-    
-  
-}
-#nav_menu ul li a{
-    display: block;
-    text-decoration: none;
+h1{
     color:white;
-    text-align: center;
-    
-    
-    
-    background-color: #000000;
-    
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-size: 40px;
+    font-family: testing;
+}
+div{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 1%;
+}
+div ul{
+    display: flex;
+    list-style: none;
     
 }
-#nav_menu ul ul{
-    
-    width: 100%;
-    display: none;
-    position: absolute;
-    top: 100%;
-    
-    
-    
-    
+div ul li{
+    padding: 10px 30px;
+    position: relative;
 }
-#nav_menu ul ul li{
-    float: none;
-    
+div ul li a{
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+    transition:color 0.3s;
 }
-#nav_menu ul li:hover>ul{
-    display: block;
+div ul li a:hover, .current{
+    color:aqua;
 }
-#nav_menu > ul::after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
 /*Dynamic screen sizes*/
 
 @media only screen and (max-width:660px) {
