@@ -18,6 +18,8 @@
     </nav>
     </div>  
 
+    <main>
+
     <aside>
         <nav>
             <ul>
@@ -30,7 +32,13 @@
             </ul>
         </nav>
     </aside>
-    <main>
+     <!-- Main Should be global, meaning it should enclose
+    Aside and the actual content in main so elements can float
+that's why main cant float around aside, MAIN is the structure
+so all elements inside float using flexbox which means i should change
+main for another element for the text like (article) and the enclose both
+article and aside so it works.-->
+        <article>
         <h1>Welcome To The Wiki</h1>
         <p>This is the start of the page in which you will be able to start looking for
             useful information and sail the high seas. Get ready to find treasures !
@@ -48,6 +56,7 @@
             specific purpose, software, addons, Sites for something specific, Useful AI, or 
             anything similar is very welcome here. 
         </p>
+        </article>
     </main>
 </body>
 </html>

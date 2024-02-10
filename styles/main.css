@@ -28,15 +28,18 @@ h1{
     font-family: testing;
 }
 aside{
-    display: flex;
+    
     border: 1px solid white;
     height:200px;
     flex-basis:30%;
     
 }
+article{
+    flex-basis: 70%;
+}
 main{
     display: flex;
-    flex-basis: 70%;
+    
 }
 div{
     background-color: black;
