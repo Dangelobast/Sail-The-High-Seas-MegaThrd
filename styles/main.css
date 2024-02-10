@@ -2,19 +2,17 @@
     padding:0;
     margin:0;
 }
-html{ /*
+/*html{ 
     background: linear-gradient(90deg, rgb(34, 34, 85) , rgb(54, 54, 159), rgb(31, 31, 77));
-    */
-}
+    
+}*/
 /*Fonts*/
 @font-face {
     font-family: testing;
     src: url("../fonts/AGENCYB.TTF");
 }
-/*Fonts*/
-header{
-    display: inline-block;
-}
+/*End of Fonts*/
+
 body {
     margin: 0 auto;
     width:100%;
@@ -27,20 +25,7 @@ h1{
     font-size: 40px;
     font-family: testing;
 }
-aside{
-    
-    border: 1px solid white;
-    height:200px;
-    flex-basis:30%;
-    
-}
-article{
-    flex-basis: 70%;
-}
-main{
-    display: flex;
-    
-}
+/*Top navigation menu*/
 div{
     background-color: black;
     height: 80px;
@@ -49,6 +34,7 @@ div{
     align-items: center;
     border-radius: 20px;
     padding-left: 1%;
+    margin-bottom: 1%;
 }
 div ul{
     display: flex;
@@ -68,6 +54,36 @@ div ul li a{
 div ul li a:hover, .current{
     color:aqua;
 }
+/*End top navigation menu*/
+
+aside{
+    display: flex;
+    border-radius: 20px;
+    height:200px;
+    flex-basis:10%;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    margin-right:1%;
+    
+    
+}
+article {
+    color:white;
+    flex-basis: 90%;
+    font-family:testing;
+    background:black;
+    font-size: 125%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+main{
+    display: flex;
+    
+}
+
 /*Dynamic screen sizes*/
 
 @media only screen and (max-width:660px) {
