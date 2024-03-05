@@ -2,31 +2,30 @@
     padding:0;
     margin:0;
 }
-/*html{ 
-    background: linear-gradient(90deg, rgb(34, 34, 85) , rgb(54, 54, 159), rgb(31, 31, 77));
-    
-}*/
-/*Fonts*/
+
+/*------------------------Fonts-----------------------*/
 @font-face {
     font-family: testing;
     src: url("../fonts/AGENCYB.TTF");
 }
-/*End of Fonts*/
+/*-----------------------------------------------------*/
 
 body {
+    
     margin: 0 auto;
     width:100%;
     background: linear-gradient(90deg, rgb(34, 34, 85) , rgb(54, 54, 159), rgb(31, 31, 77));
     
+    
 }
-/*Navigation Menu*/
+/*Navigation Menu "LOGO IN TEXT"*/
 h1{
     color:white;
     font-size: 40px;
     font-family: testing;
 }
-/*Top navigation menu*/
-div{
+/*-----------------Top navigation menu------------------*/
+#nav_menu {
     background-color: black;
     height: 80px;
     display: flex;
@@ -36,26 +35,29 @@ div{
     padding-left: 1%;
     margin-bottom: 1%;
 }
-div ul{
+#nav_menu ul {
     display: flex;
     list-style: none;
     
 }
-div ul li{
+#nav_menu ul li{
     padding: 10px 30px;
     position: relative;
 }
-div ul li a{
+#nav_menu ul li a{
     text-decoration: none;
     font-size:20px;
     color:white;
     transition:color 0.3s;
 }
-div ul li a:hover, .current{
+#nav_menu ul li a:hover, #nav_menu .current{
     color:aqua;
+    
 }
-/*End top navigation menu*/
-
+/*--------------------------------------------------*/
+main{
+    display: flex;  
+}
 aside{
     display: flex;
     border-radius: 20px;
@@ -68,9 +70,12 @@ aside{
     
     
 }
-article {
+section{
+    flex-basis: 81%;
+}
+
+.text{
     color:white;
-    flex-basis: 90%;
     font-family:testing;
     background:black;
     font-size: 125%;
@@ -78,9 +83,18 @@ article {
     justify-content: center;
     align-items: center;
     padding: 1%;
+    
+    
 }
-main{
-    display: flex;
+.list{
+    font-family:testing;
+    background:black;
+    font-size: 125%;
+    border-radius: 20px;   
+    padding: 1%;  
+}
+.list li{
+    list-style-type: none;
     
 }
 
