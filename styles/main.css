@@ -24,6 +24,14 @@ h1{
     font-size: 40px;
     font-family: testing;
 }
+.color-transition{
+    color:white;
+    transition: color 0.3s;}
+.color-transition:hover{
+    color: aqua;
+}
+
+
 /*-----------------Top navigation menu------------------*/
 #nav_menu {
     background-color: black;
@@ -67,6 +75,7 @@ aside{
     justify-content: center;
     align-items: center;
     margin-right:1%;
+    padding: 1%;
     
     
 }
@@ -80,8 +89,6 @@ section{
     background:black;
     font-size: 125%;
     border-radius: 20px;
-    justify-content: center;
-    align-items: center;
     padding: 1%;
     
     
@@ -96,6 +103,9 @@ section{
 .list li{
     list-style-type: none;
     
+}
+section div{
+    margin-top: 1%;
 }
 
 /*Dynamic screen sizes*/
